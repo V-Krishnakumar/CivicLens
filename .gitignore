@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Environment secrets & local config
+.env
+.env.*
+!.env.example
+
+# Local user documents, indexes, and model weights
+data/documents/*
+data/indexes/*
+data/metadata/*
+data/model_cache/
+data/model_cache/*
+!data/documents/.gitkeep
+!data/indexes/.gitkeep
+!data/metadata/.gitkeep
+
+# Frontend build & dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
